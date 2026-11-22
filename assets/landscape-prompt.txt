@@ -1,4 +1,23 @@
 Generator: built-in image_gen
 Output asset: assets/landscape.png
 
-Edit the supplied approved website concept into a clean BACKGROUND PLATE for the actual website. Preserve the same pale mist-blue sky, soft cream / peach sand dunes along the bottom third, distant softly blurred cream planet with ring cropped at upper right, small softly blurred cream orb at upper left, tiny tasteful pebbles and sparse tiny green grass details near the bottom edges, cinematic soft 3D lighting, exact calm pastel palette. REMOVE ALL text, wordmarks, GitHub icon, ALL four yellow logos and their shadows, ALL connecting lines. Remove absolutely every UI element. Seamlessly fill their former areas with uninterrupted matching pale sky and sand. There must be NO logo, no text, no line, no plate or platform, no artificial empty sticker shape, no central subject. The center and middle 70% remain nearly uniform clear blue-grey sky so real website elements can be overlaid. Keep the dunes and background planet placements similar to reference. One high-quality 16:10 landscape background image, 2560x1600 if possible. Opaque background.
+Use case: precise-object-edit.
+Asset type: pure background plate for an existing website, based on the attached approved homepage concept.
+
+Remove ALL website foreground content from the supplied concept while preserving its COMPUTER-THEMED BACKGROUND exactly:
+- Remove the top-left “gojue” wordmark and yellow square.
+- Remove the top-right GitHub icon and “文/A” language switch.
+- Remove the entire Chinese headline and subtitle.
+- Remove ALL FIVE yellow/black bee project logos, their shadows, and the “eCapture” label.
+- Remove all four faint curved connection lines in the central area.
+
+Seamlessly fill those removed areas with the same smooth pale mist-blue atmosphere. The large middle area and the header area should be clean negative space so real HTML text and independently interactive project logos can be overlaid. Absolutely no logos, no bees, no labels, no navigation, no UI, no central object, and no remnants or ghost shadows of removed objects.
+
+PRESERVE the background composition, geometry, relative size and placement of these props:
+1. Softly defocused ivory terminal-window sculpture partly cropped at the far upper-left edge, including its physical >_ marking and three small amber dots.
+2. Soft ivory processor with metallic pins and pale yellow center, tilted and partly cropped at the far upper-right corner.
+3. Three cream keyboard keycaps at lower left with their physical brace, slash and angle-bracket markings.
+4. Ivory Ethernet plug at lower right with its cable curving toward the right edge.
+5. Matte ivory floor along the bottom, with subtle recessed circuit traces and a few tiny warm amber contact points. Keep these FLOOR circuit traces; only the central project connector lines should be removed.
+
+Preserve the approved soft rounded 3D ceramic style, gentle depth of field, mist-blue/cream palette, soft warm illumination and delicate shadows. Preserve the spacious open center and exact overall framing. No planets, grass, dunes or extra components. No dramatic neon or dark background. Opaque image, wide 16:10 landscape, high resolution. Deliver only the clean background artwork with no annotations.

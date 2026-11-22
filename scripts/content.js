@@ -1,7 +1,7 @@
 export const projectCatalog = {
   ecapture: { name: 'eCapture', logo: 'assets/logos/ecapture.svg', tags: ['Linux', 'Android', 'eBPF'], repo: 'ecapture', docs: 'https://ecapture.cc' },
   q: { name: 'eCaptureQ', logo: 'assets/logos/ecaptureq.svg', tags: ['Desktop', 'Web'], repo: 'ecaptureQ', docs: 'https://ecapture.cc/q/' },
-  skills: { name: 'eCapture AI Skill', logo: 'assets/logos/ecapture-skills.png', logoClass: 'skills-logo', tags: ['Agent Skill', 'Python', 'Shell'], repo: 'ecapture_skills', docs: 'https://github.com/gojue/ecapture_skills#readme' },
+  skills: { name: 'ecapture Skill', logo: 'assets/logos/ecapture-skills.png', logoClass: 'skills-logo', tags: ['Agent Skill', 'Python', 'Shell'], repo: 'ecapture_skills', docs: 'https://github.com/gojue/ecapture_skills#readme' },
   decryptor: { name: 'eCapture Decryptor', logo: 'assets/logos/ecapture-decryptor.png', tags: ['Go SDK', 'TLS / QUIC', 'pcapng'], repo: 'ecapture_decryptor', docs: 'https://github.com/gojue/ecapture_decryptor/blob/master/docs/API.md' },
   manager: { name: 'ebpfmanager', logo: 'assets/logos/ebpfmanager.svg', tags: ['Go', 'Linux', 'eBPF'], repo: 'ebpfmanager', docs: 'https://github.com/gojue/ebpfmanager#readme' },
 };
@@ -9,10 +9,10 @@ export const projectCatalog = {
 export const translations = {
   zh: {
     lang: 'zh-CN',
-    pageTitle: 'gojue — 因热爱而聚，让技术被看见',
-    description: 'gojue 是由爱好者与热心贡献者组成的非营利技术社区。探索以 eCapture 为核心的采集、分析、AI Agent 与 eBPF 项目生态。',
-    headline: ['因热爱而聚，', '让技术被看见。'],
-    subtitle: '一个由爱好者与热心贡献者组成的非营利技术社区',
+    pageTitle: 'gojue — 俏也不争春，只把春来报',
+    description: '由爱好者与贡献者共建的非营利技术社区，让开源成果惠及更多人。',
+    headline: ['俏也不争春，', '只把春来报。'],
+    subtitle: '由爱好者与贡献者共建的非营利技术社区，让开源成果惠及更多人。',
     navLabel: '网站链接与语言', aboutLabel: '关于 gojue', githubLabel: '在 GitHub 查看 gojue',
     switchLanguage: 'Switch to English / 切换到英文',
     sceneLabel: 'gojue 项目生态',
@@ -21,7 +21,7 @@ export const translations = {
     githubAction: '查看 GitHub', docsAction: '使用文档', visitOrg: '访问 gojue',
     viewDetails: '查看项目详情',
     about: {
-      tagline: '因热爱而聚，<br>让技术被看见。',
+      tagline: '俏也不争春，<br>只把春来报。',
       description: 'gojue 是一个非营利技术社区，由爱好者与热心贡献者组成。我们围绕 eBPF、安全、可观测性与 AI Agent，一起探索技术、分享知识、维护项目。',
       sections: [
         ['由热爱驱动，在周末生长。', '成员大多有全职工作，主要利用周末和业余时间维护项目。更新、迭代与问题响应可能不够及时，感谢你的理解与耐心。'],
@@ -49,7 +49,7 @@ export const translations = {
         category: 'AI Agent 技能', subtitle: 'AI Agent 技能', connection: '智能调用',
         tagline: '让 AI Agent，<br>也能用好 eCapture。',
         description: '为 AI Agent 提供 eCapture 的使用流程、命令参考与辅助脚本，帮助它检查环境、选择采集方式并理解输出。',
-        relation: [['eCapture AI Skill', '使用流程与指导'], ['eCapture', '执行采集任务']],
+        relation: [['ecapture Skill', '使用流程与指导'], ['eCapture', '执行采集任务']],
         features: ['环境检查与采集前准备', 'TLS 明文、HTTP 与密钥采集流程', '命令模板、平台约束与输出参考'],
         note: 'Skill 提供操作知识与流程；实际采集仍由目标环境中的 eCapture 完成。',
       },
@@ -73,10 +73,10 @@ export const translations = {
   },
   en: {
     lang: 'en',
-    pageTitle: 'gojue — United by passion. Bringing tech to light.',
-    description: 'gojue is a nonprofit technology community of enthusiasts and volunteer contributors. Explore the eCapture ecosystem for traffic capture, analysis, AI agents, and eBPF.',
-    headline: ['United by passion.', 'Bringing tech to light.'],
-    subtitle: 'A nonprofit technology community of enthusiasts and volunteer contributors',
+    pageTitle: 'gojue — Sweet and fair, she craves not Spring for herself alone, To be the harbinger of Spring she is content.',
+    description: 'A nonprofit tech community built by enthusiasts and contributors, bringing the benefits of open source to more people.',
+    headline: ['Sweet and fair, she craves not Spring for herself alone,', 'To be the harbinger of Spring she is content.'],
+    subtitle: 'A nonprofit tech community built by enthusiasts and contributors, bringing the benefits of open source to more people.',
     navLabel: 'Website links and language', aboutLabel: 'About gojue', githubLabel: 'View gojue on GitHub',
     switchLanguage: '切换到中文 / Switch to Chinese',
     sceneLabel: 'The gojue project ecosystem',
@@ -85,7 +85,7 @@ export const translations = {
     githubAction: 'View on GitHub', docsAction: 'Documentation', visitOrg: 'Visit gojue',
     viewDetails: 'View project details',
     about: {
-      tagline: 'United by passion.<br>Bringing tech to light.',
+      tagline: 'Sweet and fair, she craves not Spring for herself alone,<br>To be the harbinger of Spring she is content.',
       description: 'gojue is a nonprofit technology community built by enthusiasts and volunteer contributors. We explore eBPF, security, observability, and AI agents through shared knowledge and collaborative projects.',
       sections: [
         ['Built with passion, maintained on weekends.', 'Most members have full-time jobs and maintain these projects on weekends and in their spare time. Updates, improvements, and responses may take a while. Thank you for your patience and understanding.'],
@@ -113,7 +113,7 @@ export const translations = {
         category: 'AI agent skill', subtitle: 'AI agent skill', connection: 'Agent workflows',
         tagline: 'Help AI agents<br>work with eCapture.',
         description: 'Give AI agents eCapture workflows, command references, and helper scripts to check an environment, choose capture modes, and understand the results.',
-        relation: [['eCapture AI Skill', 'Guidance and workflows'], ['eCapture', 'Run capture tasks']],
+        relation: [['ecapture Skill', 'Guidance and workflows'], ['eCapture', 'Run capture tasks']],
         features: ['Check prerequisites and prepare for capture', 'Workflows for TLS plaintext, HTTP, and keys', 'Command templates, platform limits, and output guides'],
         note: 'The skill provides operational knowledge and workflows. eCapture performs the actual capture in the target environment.',
       },

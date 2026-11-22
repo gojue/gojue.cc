@@ -1,0 +1,54 @@
+Homepage-only glossy 3D logo variants
+Generated on 2026-11-22 using the built-in image_gen tool (image_gen__imagegen), with transparent_background=true.
+Material reference: design/concepts/gojue-v4-3d-logos/ecapture-concept-glossy.png (user-approved glossy eCapture concept).
+Identity references: each project's existing official logo; ebpfmanager uses the existing family chip logo designed for this site.
+Scope: assets/logos/homepage-3d/ is used only by index.html. The projectCatalog in scripts/content.js continues to reference original detail-dialog logos.
+Main logo: ecapture-body.png has no forehead eyes; two copies of eye.png are overlaid inside #bee-eyes at the existing eye centers (562, 377) and (692, 377) in the 1254-square SVG. The existing animation translates that group.
+
+=== eCapture body ===
+Use case: precise-object-edit / background-extraction.
+Create the production BODY LAYER of the attached approved glossy 3D eCapture logo for its website animation.
+
+Keep the exact approved warm yellow rounded horizontal hexagon, cream sidewalls, glossy piano-black eyeglass frames, opaque white enamel lenses, and three polished black bee abdomen pieces. Preserve the same material quality, highlight direction, relief depth, almost frontal camera angle, geometry and facial proportions.
+
+TWO REQUIRED EDITS:
+1. Remove ALL background, floor, keyboard props, contact shadow, and surrounding scenery. The logo itself must be a clean transparent cutout.
+2. REMOVE JUST the TWO round BLACK EYES ABOVE THE GLASSES, including their cast shadows. Fill their former positions seamlessly with the same yellow face surface. Leave no eye dots, no dimples, no holes, no marks. These two eyes will be separate animated elements in the website. The black glasses and all three black abdomen pieces remain intact.
+
+OUTPUT FRAMING:
+Square canvas. Full logo uncut, centered. Its widest dimension occupies 94% of the square, with approximately 3% transparent margin at each side. Hexagon top and bottom have proportionally larger clear margins, like the official logo. Keep a generous uninterrupted yellow forehead above the glasses for the separate eye animation. No stretching. Real transparent alpha around the hexagon. No artificial shadow outside the object. No text, no other logo, no additional anatomy. Preserve the warm-yellow/cream and shiny-black art direction precisely.
+
+=== eCapture eye sprite ===
+Create ONE isolated circular bee eye as a reusable transparent-background UI sprite. Use the attached approved eCapture logo only as MATERIAL and LIGHTING reference: extract/recreate the look of just ONE of its two tiny black round forehead eyes. Deliver a single perfectly circular, shallow convex black polished resin/glossy black ceramic dome, viewed almost straight on. Jet-black rich core, crisp creamy-white specular softbox reflection at upper left, subtle thin bright gray rim at upper/right, tiny dark lower bevel for thickness. No chalky gray coating, no broad foggy sheen, no matte surface. Match the very shiny piano-black finish in the reference glasses. Shape round, aspect ratio exactly 1:1, centered on square canvas, fill 94% of the canvas width and height with a small 3% transparent margin. Eye silhouette must be crisp, smooth, clean antialiasing. Nothing else: no yellow face, no hexagon, no eye pair, no glasses, no iris, no pupil, no white eyeball, no floor, no background, no detached cast shadow, no writing or watermark. Genuine transparent alpha outside the circular object. This single black round dome will be overlaid twice on the existing logo and animated by the webpage.
+
+=== q ===
+Create a finished transparent PNG logo asset for the gojue.cc homepage. Image 1 is the exact project identity/geometry reference. Image 2 is the approved 3D material reference. Reinterpret image 1 in the SAME style as image 2: rounded warm golden-yellow keycap body, subtle cream/ivory sidewalls, white enamel eyeglass lenses, polished glossy piano-BLACK eyeglass frames and abdomen stripes with clear controlled softbox highlights. The black must be rich, shiny and smooth, never dull matte gray. Shallow modeled relief, calm soft lighting from upper left. Preserve the identity geometry and relative proportions of image 1. Almost front-on with only a subtle view of the right/bottom sidewall. No extra plaque, disc, pedestal, frame or enclosure. No text or name.
+
+OUTPUT: ONE single tightly framed complete logo on a square TRANSPARENT canvas. Largest logo dimension occupies approximately 94% of the canvas; only 3% clear padding on each side along that dimension. Do not crop the object. Real transparent alpha outside the outline and in intentional openings. No background, no tabletop, no props, no gradient backdrop, no background shadow, no duplicate logos. Keep opaque white eyeglass lenses. Clean antialiased edges. A standalone production cutout, not a product scene.
+
+PROJECT REQUIREMENTS:
+Preserve the yellow capital Q silhouette: a thick round ring with a diagonal tail at lower right, containing the bee face. The open center around the bee is genuinely transparent, NOT filled black or cream. Keep two black dot eyes above the glasses and three black abdomen pieces. Do not put a hexagon behind the face.
+
+=== skills ===
+Create a finished transparent PNG logo asset for the gojue.cc homepage. Image 1 is the exact project identity/geometry reference. Image 2 is the approved 3D material reference. Reinterpret image 1 in the SAME style as image 2: rounded warm golden-yellow keycap body, subtle cream/ivory sidewalls, white enamel eyeglass lenses, polished glossy piano-BLACK eyeglass frames and abdomen stripes with clear controlled softbox highlights. The black must be rich, shiny and smooth, never dull matte gray. Shallow modeled relief, calm soft lighting from upper left. Preserve the identity geometry and relative proportions of image 1. Almost front-on with only a subtle view of the right/bottom sidewall. No extra plaque, disc, pedestal, frame or enclosure. No text or name.
+
+OUTPUT: ONE single tightly framed complete logo on a square TRANSPARENT canvas. Largest logo dimension occupies approximately 94% of the canvas; only 3% clear padding on each side along that dimension. Do not crop the object. Real transparent alpha outside the outline and in intentional openings. No background, no tabletop, no props, no gradient backdrop, no background shadow, no duplicate logos. Keep opaque white eyeglass lenses. Clean antialiased edges. A standalone production cutout, not a product scene.
+
+PROJECT REQUIREMENTS:
+Preserve the rounded flat-top yellow hexagon and its bee face. Above the glasses is the distinctive THREE-NODE BRANCHING DIAGRAM: one outlined round node at top, connected to two outlined round nodes below. Model these fine outlines as glossy black raised relief; their interiors remain yellow. There are NO two eye dots in this particular project identity. Remove the white rectangular background from image 1 completely; keep only the hexagonal object. Exactly three black abdomen pieces.
+
+=== decryptor ===
+Create a finished transparent PNG logo asset for the gojue.cc homepage. Image 1 is the exact project identity/geometry reference. Image 2 is the approved 3D material reference. Reinterpret image 1 in the SAME style as image 2: rounded warm golden-yellow keycap body, subtle cream/ivory sidewalls, white enamel eyeglass lenses, polished glossy piano-BLACK eyeglass frames and abdomen stripes with clear controlled softbox highlights. The black must be rich, shiny and smooth, never dull matte gray. Shallow modeled relief, calm soft lighting from upper left. Preserve the identity geometry and relative proportions of image 1. Almost front-on with only a subtle view of the right/bottom sidewall. No extra plaque, disc, pedestal, frame or enclosure. No text or name.
+
+OUTPUT: ONE single tightly framed complete logo on a square TRANSPARENT canvas. Largest logo dimension occupies approximately 94% of the canvas; only 3% clear padding on each side along that dimension. Do not crop the object. Real transparent alpha outside the outline and in intentional openings. No background, no tabletop, no props, no gradient backdrop, no background shadow, no duplicate logos. Keep opaque white eyeglass lenses. Clean antialiased edges. A standalone production cutout, not a product scene.
+
+PROJECT REQUIREMENTS:
+Preserve the yellow capital D silhouette including the small OPEN NOTCH between the top of its left vertical stem and the curved upper-right section. The bee face occupies its hollow center. Keep the center around the face TRANSPARENT, not black or cream. Two black dot eyes above the glasses and exactly three black abdomen pieces. Do not add a hexagon or interior disk.
+
+=== manager ===
+Create a finished transparent PNG logo asset for the gojue.cc homepage. Image 1 is the exact project identity/geometry reference. Image 2 is the approved 3D material reference. Reinterpret image 1 in the SAME style as image 2: rounded warm golden-yellow keycap body, subtle cream/ivory sidewalls, white enamel eyeglass lenses, polished glossy piano-BLACK eyeglass frames and abdomen stripes with clear controlled softbox highlights. The black must be rich, shiny and smooth, never dull matte gray. Shallow modeled relief, calm soft lighting from upper left. Preserve the identity geometry and relative proportions of image 1. Almost front-on with only a subtle view of the right/bottom sidewall. No extra plaque, disc, pedestal, frame or enclosure. No text or name.
+
+OUTPUT: ONE single tightly framed complete logo on a square TRANSPARENT canvas. Largest logo dimension occupies approximately 94% of the canvas; only 3% clear padding on each side along that dimension. Do not crop the object. Real transparent alpha outside the outline and in intentional openings. No background, no tabletop, no props, no gradient backdrop, no background shadow, no duplicate logos. Keep opaque white eyeglass lenses. Clean antialiased edges. A standalone production cutout, not a product scene.
+
+PROJECT REQUIREMENTS:
+Preserve the golden-yellow rounded square microchip silhouette with exactly TWELVE thick rounded terminals: three on EACH of the four sides. Keep the terminals yellow with subtle cream extrusion consistent with the body. Preserve the centered bee face, two round black eyes above the glasses, white lenses, and three black abdomen pieces. No additional CPU graphics or text.

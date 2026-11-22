@@ -1,0 +1,50 @@
+Homepage-only satin / semi-gloss 3D logo variants
+Generator: built-in image_gen (image_gen__imagegen), transparent_background=true.
+Date: 2026-11-22
+Edit targets: the corresponding previous glossy PNG files from assets/logos/homepage-3d/ (Git commit 28c263d).
+Material reference: design/concepts/gojue-v4-3d-logos/ecapture-concept-satin.png.
+Scope: replace only the six homepage PNG assets. Original detail-dialog logos remain unchanged. Maintain the existing SVG eye layers, dimensions and anchor coordinates.
+
+=== ecapture-skills.png ===
+Use case: precise-object-edit.
+Image 1 is the EXACT existing transparent logo to edit. Image 2 is ONLY the user-approved SEMI-GLOSS / SATIN BLACK material reference. Deliver the same production cutout as image 1, with only its black surface finish changed to match image 2.
+Material change: replace the hard bright-white specular patches and piano-black lacquer finish with smooth satin black molded resin. Deep near-black body color, subtle silky luster, moderate softly defined dim gray softbox highlights at upper-left curves with gradual rolloff, a little polish that reveals rounded relief. Follow image 2's restrained sheen closely. No broad foggy gray coating, no grainy rubber texture, no chalky matte, no sharp white streaks, no mirror shine.
+Keep ALL exact geometry, outline, individual feature positions, relative sizes, camera angle, rounded bevels, original yellow color and shading, ivory sidewalls and opaque white lenses. Preserve the exact centered square framing, size and clear margins from image 1. Do not redesign or add anything.
+Alpha: preserve a genuine transparent background, including all open spaces within the logo, with clean antialiased edges. No black/white/colored background fill, no floor, props, detached shadow, scenery, words, labels, disc, pedestal, halo or watermark. Only ONE logo.
+Project invariants: Preserve the yellow hexagon, the black diagram of THREE hollow circular nodes with branching connectors above the glasses, and exactly three bee abdomen segments. Apply satin finish to the entire node diagram as well as frame and stripes. This project has NO pair of eye dots; do not add eyes or antennae.
+
+=== ecaptureq.png ===
+Use case: precise-object-edit.
+Image 1 is the EXACT existing transparent logo to edit. Image 2 is ONLY the user-approved SEMI-GLOSS / SATIN BLACK material reference. Deliver the same production cutout as image 1, with only its black surface finish changed to match image 2.
+Material change: replace the hard bright-white specular patches and piano-black lacquer finish with smooth satin black molded resin. Deep near-black body color, subtle silky luster, moderate softly defined dim gray softbox highlights at upper-left curves with gradual rolloff, a little polish that reveals rounded relief. Follow image 2's restrained sheen closely. No broad foggy gray coating, no grainy rubber texture, no chalky matte, no sharp white streaks, no mirror shine.
+Keep ALL exact geometry, outline, individual feature positions, relative sizes, camera angle, rounded bevels, original yellow color and shading, ivory sidewalls and opaque white lenses. Preserve the exact centered square framing, size and clear margins from image 1. Do not redesign or add anything.
+Alpha: preserve a genuine transparent background, including all open spaces within the logo, with clean antialiased edges. No black/white/colored background fill, no floor, props, detached shadow, scenery, words, labels, disc, pedestal, halo or watermark. Only ONE logo.
+Project invariants: Preserve the capital yellow Q ring and lower-right diagonal tail, two round black forehead eyes, glasses and exactly three black bee abdomen segments. The Q's opening around the bee is truly transparent, NOT filled with a black or ivory disk. Apply satin finish to the two eyes as well.
+
+=== ecapture-decryptor.png ===
+Use case: precise-object-edit.
+Image 1 is the EXACT existing transparent logo to edit. Image 2 is ONLY the user-approved SEMI-GLOSS / SATIN BLACK material reference. Deliver the same production cutout as image 1, with only its black surface finish changed to match image 2.
+Material change: replace the hard bright-white specular patches and piano-black lacquer finish with smooth satin black molded resin. Deep near-black body color, subtle silky luster, moderate softly defined dim gray softbox highlights at upper-left curves with gradual rolloff, a little polish that reveals rounded relief. Follow image 2's restrained sheen closely. No broad foggy gray coating, no grainy rubber texture, no chalky matte, no sharp white streaks, no mirror shine.
+Keep ALL exact geometry, outline, individual feature positions, relative sizes, camera angle, rounded bevels, original yellow color and shading, ivory sidewalls and opaque white lenses. Preserve the exact centered square framing, size and clear margins from image 1. Do not redesign or add anything.
+Alpha: preserve a genuine transparent background, including all open spaces within the logo, with clean antialiased edges. No black/white/colored background fill, no floor, props, detached shadow, scenery, words, labels, disc, pedestal, halo or watermark. Only ONE logo.
+Project invariants: Preserve the yellow capital D, including the deliberate OPEN notch at top left between its vertical stem and top arch, two round eyes, glasses, and exactly three bee abdomen segments. The interior around the bee and the top notch are truly transparent. Apply satin finish to the two eyes as well.
+
+=== ebpfmanager.png ===
+Use case: precise-object-edit.
+Image 1 is the EXACT existing transparent logo to edit. Image 2 is ONLY the user-approved SEMI-GLOSS / SATIN BLACK material reference. Deliver the same production cutout as image 1, with only its black surface finish changed to match image 2.
+Material change: replace the hard bright-white specular patches and piano-black lacquer finish with smooth satin black molded resin. Deep near-black body color, subtle silky luster, moderate softly defined dim gray softbox highlights at upper-left curves with gradual rolloff, a little polish that reveals rounded relief. Follow image 2's restrained sheen closely. No broad foggy gray coating, no grainy rubber texture, no chalky matte, no sharp white streaks, no mirror shine.
+Keep ALL exact geometry, outline, individual feature positions, relative sizes, camera angle, rounded bevels, original yellow color and shading, ivory sidewalls and opaque white lenses. Preserve the exact centered square framing, size and clear margins from image 1. Do not redesign or add anything.
+Alpha: preserve a genuine transparent background, including all open spaces within the logo, with clean antialiased edges. No black/white/colored background fill, no floor, props, detached shadow, scenery, words, labels, disc, pedestal, halo or watermark. Only ONE logo.
+Project invariants: Preserve the rounded yellow microchip with exactly THREE terminals on EACH of its FOUR sides (twelve total), two round eyes, glasses, and exactly three bee abdomen segments. Apply satin finish to the two eyes as well. Do not turn the chip into a hexagon or change any pins.
+
+=== ecapture-body.png ===
+Use case: precise-object-edit. Image 1 is the exact transparent production asset to edit; image 2 is the approved semi-gloss black material reference only.
+Change its black finish to match the restrained satin black of image 2: rich near-black body, smooth molded resin with subtle silky luster, soft dim gray highlights that reveal curvature, gradual rolloff. Replace the bright-white hard specular patches with gentle softly defined reflections, halfway between rubber matte and shiny lacquer. No chalky gray veil, no coarse grain, no bright white streaks or mirror shine.
+Preserve image 1's exact square canvas, object position, scale, geometry, transparent margins, camera and complete silhouette. Keep genuine transparent alpha outside the object, clean smooth edges, no background or detached shadow, no text. Do not import the scene from image 2.
+MAIN BODY asset: Preserve the exact yellow rounded hexagon, ivory sidewalls, opaque white lenses, black glasses outline and three abdomen segments from image 1. Edit ONLY the black eyeglass frame and abdomen finish. Maintain the EMPTY YELLOW FOREHEAD. There must be NO black eye dots above the glasses, no shadows of eyes, no dents or marks: the website adds two separately animated eyes later. Keep yellow and ivory material/shading unchanged. No added scenery, keyboard, pedestal or halo.
+
+=== eye.png ===
+Use case: precise-object-edit. Image 1 is the exact transparent production asset to edit; image 2 is the approved semi-gloss black material reference only.
+Change its black finish to match the restrained satin black of image 2: rich near-black body, smooth molded resin with subtle silky luster, soft dim gray highlights that reveal curvature, gradual rolloff. Replace the bright-white hard specular patches with gentle softly defined reflections, halfway between rubber matte and shiny lacquer. No chalky gray veil, no coarse grain, no bright white streaks or mirror shine.
+Preserve image 1's exact square canvas, object position, scale, geometry, transparent margins, camera and complete silhouette. Keep genuine transparent alpha outside the object, clean smooth edges, no background or detached shadow, no text. Do not import the scene from image 2.
+EYE SPRITE asset: Deliver ONLY the single round shallow convex BLACK dome from image 1. Its reflectivity should match ONE small forehead eye in image 2, scaled up for this isolated asset. Keep the sphere's core deep near-black, and replace the large bright oval white reflection with a restrained soft mid-gray upper-left reflection that feathers smoothly to black, like the reference. Preserve the circular silhouette, subtle lower bevel and same clear margins. No bee face, yellow hexagon, second eye, glasses, white eyeball, pupil, iris, background or scenery. One single circular satin-black eye only.

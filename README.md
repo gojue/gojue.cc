@@ -1,6 +1,6 @@
 # gojue.cc
 
-gojue 官方网站。以 eCapture 为中心，展示 eCaptureQ、ecapture_skills、ecapture_decryptor 与 ebpfmanager 的项目关系。
+gojue 官方网站。以 eCapture 为中心，展示 eCaptureQ、eCapture AI Skill、eCapture Decryptor 与 ebpfmanager 的项目关系。
 
 ## 本地预览
 

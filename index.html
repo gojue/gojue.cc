@@ -1,38 +1,117 @@
 <!doctype html>
-<html lang=en>
-
+<html lang="zh-CN">
 <head>
-    <meta charset=UTF-8 />
-    <meta name=description content="Free coming soon template">
-    <meta name=author content="CFC4N">
-    <meta name=viewport content="width=device-width,initial-scale=1" />
-    <meta http-equiv=X-UA-Compatible content="ie=edge" />
-    <link href="styles/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Comming Soon</title>
-    <link href="styles/main.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dce7ec">
+  <meta name="description" content="gojue 是由爱好者与热心贡献者组成的非营利技术社区。探索以 eCapture 为核心的采集、分析、AI Agent 与 eBPF 项目生态。">
+  <meta property="og:title" content="gojue — 因热爱而聚，让技术被看见">
+  <meta property="og:description" content="探索 eCapture、eCaptureQ、ecapture_skills、ecapture_decryptor 与 ebpfmanager。由热爱驱动的非营利技术社区。">
+  <meta property="og:type" content="website">
+  <title>gojue — 因热爱而聚，让技术被看见</title>
+  <link rel="icon" href="assets/logos/ecapture.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/landscape.png" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles/site.css">
+  <script type="module" src="scripts/app.js"></script>
 </head>
-
 <body>
-    <div class=container>
-        <div class=row>
-            <div class="left-wrap col-12 col-md-5">
-                <div class=left>
-                    <p><span class=days></span><span class=small> days</span></p>
-                    <p><span class=hours></span><span class=small> hours</span></p>
-                    <p>&nbsp;&nbsp;<span class=minutes></span><span class=small> minutes</span></p>
-                    <p>&nbsp;&nbsp;<span class=seconds></span><span class=small> seconds</span></p>
-                </div>
-            </div>
-            <div class="col-12 col-md-7 right">
-                <div class="mainInfo">
-                    <h1>COMING SOON</h1>
-                    <p class="slogan">永远相信美好的事情即将发生。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="scripts/bundle.js"></script>
- 
-</body>
+  <svg class="svg-definitions" aria-hidden="true" width="0" height="0">
+    <defs>
+      <clipPath id="skills-silhouette" clipPathUnits="objectBoundingBox">
+        <path transform="scale(.0007974481659)" d="M352 129H902C928 129 947 143 962 166L1219 558C1234 581 1234 603 1220 626L930 1086C914 1112 895 1124 867 1124H382C355 1124 338 1112 323 1088L36 624C21 601 21 580 36 557L298 164C312 142 329 129 352 129Z"/>
+      </clipPath>
+      <symbol id="github-icon" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 .75a11.25 11.25 0 0 0-3.558 21.923c.563.104.77-.244.77-.543 0-.267-.01-.974-.016-1.912-3.13.68-3.79-1.508-3.79-1.508-.512-1.3-1.25-1.647-1.25-1.647-1.023-.7.078-.686.078-.686 1.13.08 1.726 1.16 1.726 1.16 1.006 1.725 2.64 1.227 3.283.938.102-.729.394-1.227.715-1.51-2.499-.284-5.126-1.249-5.126-5.56 0-1.23.44-2.234 1.16-3.022-.116-.285-.503-1.43.11-2.98 0 0 .945-.303 3.094 1.154A10.8 10.8 0 0 1 12 6.178c.956.005 1.92.129 2.82.38 2.148-1.457 3.091-1.155 3.091-1.155.615 1.551.228 2.696.112 2.981.722.788 1.159 1.792 1.159 3.022 0 4.322-2.631 5.273-5.138 5.552.404.35.765 1.04.765 2.097 0 1.514-.014 2.736-.014 3.108 0 .302.203.653.774.542A11.252 11.252 0 0 0 12 .75Z"/>
+      </symbol>
+    </defs>
+  </svg>
 
+  <div class="experience" id="experience">
+    <div class="landscape" aria-hidden="true"></div>
+    <header class="site-header">
+      <button class="wordmark" id="about-button" type="button" aria-label="关于 gojue" title="关于 gojue">gojue<span aria-hidden="true"></span></button>
+      <nav class="header-actions" aria-label="网站链接与语言">
+        <a class="github-link" href="https://github.com/gojue" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看 gojue" title="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#github-icon"/></svg>
+        </a>
+        <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch to English / 切换到英文" title="Switch to English / 切换到英文" data-language="zh">
+          <span class="language-glyph" aria-hidden="true"><span lang="zh">文</span><span class="language-slash">/</span><span lang="en">A</span></span>
+        </button>
+      </nav>
+    </header>
+
+    <div class="hero" id="hero">
+      <h1>因热爱而聚，<span>让技术被看见。</span></h1>
+      <p>一个由爱好者与热心贡献者组成的非营利技术社区</p>
+    </div>
+
+    <main class="constellation" id="constellation" aria-label="gojue 项目生态" aria-describedby="scene-instructions">
+      <p class="visually-hidden" id="scene-instructions">将鼠标移到副项目 LOGO 上，显示名称、说明与关联连线。点击任一项目 LOGO，包括中心的 eCapture，查看项目介绍。也可使用 Tab 键选择、回车打开、Escape 关闭。触摸屏可直接点击 LOGO。</p>
+      <svg class="connections" id="connections" aria-hidden="true">
+        <g class="connection" data-connection="skills"><path class="connection-base"/><path class="connection-glow"/><path class="connection-flow" pathLength="1000"/></g>
+        <g class="connection" data-connection="q"><path class="connection-base"/><path class="connection-glow"/><path class="connection-flow" pathLength="1000"/></g>
+        <g class="connection" data-connection="manager"><path class="connection-base"/><path class="connection-glow"/><path class="connection-flow" pathLength="1000"/></g>
+        <g class="connection" data-connection="decryptor"><path class="connection-base"/><path class="connection-glow"/><path class="connection-flow" pathLength="1000"/></g>
+      </svg>
+      <span class="connection-label" data-label="skills" aria-hidden="true">智能调用</span>
+      <span class="connection-label" data-label="q" aria-hidden="true">采集数据</span>
+      <span class="connection-label" data-label="manager" aria-hidden="true">探针管理</span>
+      <span class="connection-label" data-label="decryptor" aria-hidden="true">解密能力</span>
+
+      <div class="project project-core" data-project="ecapture">
+        <button class="project-button" type="button" data-open="ecapture" aria-label="eCapture，TLS 明文采集，查看项目详情" aria-haspopup="dialog">
+          <span class="logo-anchor">
+            <svg class="project-logo core-logo" id="core-logo" viewBox="0 0 1254 1254" fill="none" aria-hidden="true">
+              <path fill="#FFCC1A" d="M352 129H902C928 129 947 143 962 166L1219 558C1234 581 1234 603 1220 626L930 1086C914 1112 895 1124 867 1124H382C355 1124 338 1112 323 1088L36 624C21 601 21 580 36 557L298 164C312 142 329 129 352 129Z"/>
+              <g fill="#26282B">
+                <g id="bee-eyes"><circle cx="562" cy="377" r="41.5"/><circle cx="692" cy="377" r="41.5"/></g>
+                <path d="M212 434C289 416 424 410 490 434C548 453 595 491 627 491C659 491 706 453 764 434C830 410 965 416 1042 434C1071 443 1078 466 1069 498L1036 616C1023 675 1004 717 950 738C903 756 808 759 761 738C718 719 692 677 674 634C659 604 644 596 627 596C610 596 595 604 580 634C562 677 536 719 493 738C446 759 351 756 304 738C250 717 231 675 218 616L185 498C176 466 183 443 212 434Z"/>
+                <path d="M627 693C571 693 524 714 505 743C493 760 487 779 496 792Q499 801 509 797C549 780 587 769 627 769C667 769 705 780 745 797Q755 801 758 790C764 770 753 747 737 730C707 705 668 693 627 693Z"/>
+                <path d="M627 800C585 800 550 812 521 830C513 834 510 840 515 852L529 877Q533 887 543 882C568 872 596 866 627 866C658 866 686 872 711 882Q721 887 725 877L739 852C744 840 741 834 733 830C704 812 669 800 627 800Z"/>
+                <path d="M627 896C602 896 578 901 560 910Q552 915 558 926C570 948 594 970 614 979Q627 989 640 979C660 970 684 948 696 926Q702 915 694 910C676 901 652 896 627 896Z"/>
+              </g>
+              <g fill="#fff">
+                <path d="M274 478C309 462 370 460 417 466C472 470 526 485 550 507C571 526 573 548 569 580C564 634 543 678 509 700C480 719 439 724 397 722C346 721 309 711 287 681C258 644 246 599 240 560C234 522 241 493 274 478Z"/>
+                <path d="M980 478C945 462 884 460 837 466C782 470 728 485 704 507C683 526 681 548 685 580C690 634 711 678 745 700C774 719 815 724 857 722C908 721 945 711 967 681C996 644 1008 599 1014 560C1020 522 1013 493 980 478Z"/>
+              </g>
+            </svg>
+          </span>
+          <span class="project-caption"><span class="project-name">eCapture</span></span>
+        </button>
+      </div>
+
+      <div class="project project-satellite project-skills" data-project="skills">
+        <button class="project-button" type="button" data-open="skills" aria-label="ecapture_skills，AI Agent 技能，查看项目详情" aria-haspopup="dialog">
+          <span class="logo-anchor"><span class="floating-logo"><img class="project-logo skills-logo" src="assets/logos/ecapture-skills.png" width="1024" height="1024" alt="" draggable="false"></span></span>
+          <span class="project-caption"><span class="project-name">ecapture_skills</span><span class="project-subtitle">AI Agent 技能</span></span>
+        </button>
+      </div>
+      <div class="project project-satellite project-q" data-project="q">
+        <button class="project-button" type="button" data-open="q" aria-label="eCaptureQ，图形化流量分析，查看项目详情" aria-haspopup="dialog">
+          <span class="logo-anchor"><span class="floating-logo"><img class="project-logo" src="assets/logos/ecaptureq.svg" width="1600" height="1600" alt="" draggable="false"></span></span>
+          <span class="project-caption"><span class="project-name">eCaptureQ</span><span class="project-subtitle">图形化流量分析</span></span>
+        </button>
+      </div>
+      <div class="project project-satellite project-manager" data-project="manager">
+        <button class="project-button" type="button" data-open="manager" aria-label="ebpfmanager，eBPF 底层管理，查看项目详情" aria-haspopup="dialog">
+          <span class="logo-anchor"><span class="floating-logo"><img class="project-logo" src="assets/logos/ebpfmanager.svg" width="1600" height="1600" alt="" draggable="false"></span></span>
+          <span class="project-caption"><span class="project-name">ebpfmanager</span><span class="project-subtitle">eBPF 底层管理</span></span>
+        </button>
+      </div>
+      <div class="project project-satellite project-decryptor" data-project="decryptor">
+        <button class="project-button" type="button" data-open="decryptor" aria-label="ecapture_decryptor，TLS 与 QUIC 解密及解析，查看项目详情" aria-haspopup="dialog">
+          <span class="logo-anchor"><span class="floating-logo"><img class="project-logo" src="assets/logos/ecapture-decryptor.png" width="1024" height="1024" alt="" draggable="false"></span></span>
+          <span class="project-caption"><span class="project-name">ecapture_decryptor</span><span class="project-subtitle">TLS / QUIC 解密与解析</span></span>
+        </button>
+      </div>
+    </main>
+    <div class="dialog-backdrop" id="dialog-backdrop" hidden aria-hidden="true"></div>
+  </div>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title" aria-describedby="detail-description">
+    <button class="close-button" id="close-detail" type="button" aria-label="关闭项目详情" autofocus><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    <div class="detail-content" id="detail-content"></div>
+  </dialog>
+  <noscript><div class="noscript-note">请启用 JavaScript 探索项目，或直接访问 <a href="https://github.com/gojue">gojue GitHub</a>。</div></noscript>
+</body>
 </html>

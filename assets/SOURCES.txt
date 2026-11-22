@@ -1,0 +1,14 @@
+Official logos, retrieved from public gojue repositories on 2026-11-22:
+ecapture.svg: https://github.com/gojue/ecapture/blob/master/images/ecapture-logo.svg
+ecaptureq.svg: https://github.com/gojue/ecaptureQ/blob/master/frontend/ecaptureq-logo.svg
+ecapture-skills.png: https://github.com/gojue/ecapture_skills/blob/master/images/ecapture-skill-logo.png
+ecapture-decryptor.png: https://github.com/gojue/ecapture_decryptor/blob/master/images/ecapture-decryptor-logo.png
+
+Original logo files are preserved. eCapture is also inlined in index.html so the two original top circles can track the pointer. The Skills PNG has a white outer background; the page clips it to the existing official eCapture hexagon silhouette without changing its internal artwork or white lenses.
+
+landscape.png: generated using built-in image_gen from the user-approved concept. Prompt: assets/landscape-prompt.txt. It contains only scenery; website text and official logos are separate elements.
+
+ebpfmanager.svg: newly designed for this website at the user's request. Editable vector artwork extending the existing logo family, not an existing upstream logo. Reuses the exact bee path groups from ecapture.svg in a yellow chip-shaped carrier with twelve probe terminals. Palette: #FFCC1A, #26282B, #FFFFFF. Transparent background. Integrated in both the ecosystem and project details.
+ebpfmanager.png: transparent 512px preview rasterized directly from ebpfmanager.svg with librsvg. The website uses the SVG original.
+
+Project descriptions follow the corresponding repository READMEs. Each project's own license applies to that project's resources; the organization being nonprofit does not imply a common license for every project.

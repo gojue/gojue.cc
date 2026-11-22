@@ -1,0 +1,12 @@
+{
+  "name": "gojue.cc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The gojue community website",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check scripts/app.js && node --check scripts/content.js && node --check scripts/geometry.js"
+  }
+}
